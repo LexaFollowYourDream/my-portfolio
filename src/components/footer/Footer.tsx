@@ -18,7 +18,7 @@ export const Footer = () => {
                 <span className={s.listFooter}><a><img></img></a></span>
                 <span className={s.listFooter}><a><img></img></a></span>
             </div>
-            <div className={s.footerEhd}><h4>© 2022 Все права защищены</h4></div>
+            <div className={s.footerEhd}><h4>© 2023 Все права защищены</h4></div>
         </div>
     )
 
