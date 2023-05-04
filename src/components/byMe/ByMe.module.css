@@ -1,0 +1,52 @@
+
+.byMeBlock{
+    height: 100vh;
+    background-color: #61dafb;
+}
+.byMeContainer{
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blockText {
+    max-width: 300px;
+    background-color: beige;
+    align-self: center;
+}
+
+.photo {
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+
+@media (max-width: 790px ) {
+    .byMeContainer {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .photo {
+        margin-bottom: 20px;
+    }
+}
+/*.photo:hover {*/
+/*    transform: scale(1.1, 1.1);*/
+/*    transition: 0.9s*/
+/*}*/
+
+
+@media (max-width: 400px) {
+    .blockText {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .photo {
+        width: 100%;
+    }
+}

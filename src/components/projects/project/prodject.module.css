@@ -1,0 +1,41 @@
+
+.project {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    background-color: #1e1ea1;
+}
+
+.blockButton {
+    width: 100%;
+    height: 300px;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/4460346/pub_6085d3c1e2c7114111efc2a2_6085e4803b735b52f85124ce/scale_2400);
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    position: relative;
+    top: 36%;
+    left: 34%;
+}
+.blockText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+}
+.projectName {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.summary {
+    text-align: center;
+    background-color: #599876;
+}

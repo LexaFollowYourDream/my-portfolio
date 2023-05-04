@@ -1,0 +1,21 @@
+
+.block {
+    height: 25vh;
+    background-color: #c70d0d;
+}
+
+.distantWorkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e1ea1;
+}
+
+.button {
+    border: 1px solid #333; /* Рамка */
+    padding: 10px 10px; /* Поля */
+    border-radius: 5px;
+    background-color: #CBA5EA;
+
+}

@@ -1,0 +1,101 @@
+.block {
+    height: 100vh;
+    background-color: #04b004;
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CBA5EA;
+}
+
+.blockForm {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    border: 1px solid;
+    background-color: whitesmoke;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #599876;
+}
+
+.input {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.textarea {
+    width: 350px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+}
+
+.btn {
+
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*z-index: 1;*/
+    /*padding: 5px 25px;*/
+    margin: 10px 10px;
+    /*font-weight: 600;*/
+    /*line-height: 30px;*/
+    /*font-size: 15px;*/
+    /*text-transform: uppercase;*/
+    /*border-width: 0;*/
+    /*box-shadow: 5px 5px 0 #695a80;*/
+    /*outline: none;*/
+    /*cursor: pointer;*/
+    /*transition: 1.5s;*/
+}
+
+@media (max-width: 500px ) {
+    .input {
+        width: 300px;
+    }
+
+    .textarea {
+        width: 300px;
+    }
+}
+@media (max-width: 450px ) {
+    .input {
+        width: 250px;
+    }
+
+    .textarea {
+        width: 250px;
+    }
+}
+
+@media (max-width: 400px ) {
+    .input {
+        width: 200px;
+    }
+
+    .textarea {
+        width: 200px;
+    }
+}
+
+
+
